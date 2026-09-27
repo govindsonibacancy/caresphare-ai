@@ -1,0 +1,11 @@
+from enum import StrEnum
+
+
+class Role(StrEnum):
+    PATIENT = "PATIENT"
+    DOCTOR = "DOCTOR"
+    NURSE = "NURSE"
+    RECEPTIONIST = "RECEPTIONIST"
+    STAFF = "STAFF"
+    HOSPITAL_ADMIN = "HOSPITAL_ADMIN"
+    SUPER_ADMIN = "SUPER_ADMIN"
